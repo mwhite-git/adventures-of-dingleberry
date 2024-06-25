@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Menu.scss';
 
 interface MenuProps {
@@ -21,7 +22,9 @@ const Menu: React.FC<MenuProps> = ({ onStartGame }) => {
         </p>
         <div className="button-container">
           <button onClick={onStartGame}>Start Game</button>
-          <button className="devblog-button" onClick={() => window.location.href = 'https://your-devblog-url.com'}>Dev Blog</button>
+          <Link to="/devblog">
+            <button className="devblog-button">Dev Blog</button>
+          </Link>
         </div>
       </div>
     </div>
