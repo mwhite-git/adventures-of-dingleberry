@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# The Adventures of Dingleberry
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The Adventures of Dingleberry is a text-based choice game built with Vite, React, TypeScript, and SCSS. In this game, you guide Dingleberry, an unassuming space dweller, through a thrilling adventure filled with danger, intrigue, and unexpected heroism.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Interactive text-based adventure game
+- Multiple story paths and choices
+- State management using React hooks
+- Styled using SCSS for modular and reusable styles
+- Developed with TypeScript for type safety and better code quality
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Project Structure
+Here's an overview of the project structure:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+/src
+|-- /assets         # Images, fonts, and other static assets
+|-- /components     # React components
+|-- /data           # Game data and TypeScript interfaces
+|-- /styles         # SCSS stylesheets
+|-- /views          # Page views and scenes
+|-- App.tsx         # Main application component
+|-- main.tsx        # Application entry point
+|-- index.html      # HTML template
+
+
+## Technologies Used
+- Vite: Next Generation Frontend Tooling
+- React: A JavaScript library for building user interfaces
+- TypeScript: Typed JavaScript at Any Scale
+- SCSS: CSS with superpowers
+
