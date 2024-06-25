@@ -1,0 +1,17 @@
+@import 'variables';
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling by default */
+  font-family: $body-font;
+  background-color: $background-color;
+
+  @media (max-width: 768px) {
+    overflow: auto; /* Allow scrolling on small screens */
+  }
+}
+
+#root {
+  height: 100%;
+}

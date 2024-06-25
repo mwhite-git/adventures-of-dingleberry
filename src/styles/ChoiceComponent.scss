@@ -1,0 +1,18 @@
+// src/styles/ChoiceComponent.scss
+@import 'variables';
+
+.choice {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: $secondary-color;
+  color: $text-color;
+  border: 1px solid $accent-color;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: darken($secondary-color, 10%);
+  }
+}
