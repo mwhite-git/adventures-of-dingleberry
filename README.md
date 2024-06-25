@@ -22,7 +22,7 @@ The Adventures of Dingleberry is a text-based choice game built with Vite, React
 ## Project Structure
 Here's an overview of the project structure:
 ```
-/publid
+/public
 |-- /images         # Scene background images
 /src
 |-- /components     # React components
