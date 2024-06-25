@@ -29,7 +29,7 @@ interface Choice {
         { text: "Confront the travelers", nextScene: 6 },
         { text: "Hide in the restroom", nextScene: 7 }
       ],
-      image: '/images/travelers-conversation.jpeg'
+      image: '/images/scene-two.jpeg'
     },
     {
       id: 3,
@@ -39,7 +39,7 @@ interface Choice {
         { text: "Try to blend in with the crowd", nextScene: 9 },
         { text: "Make a quick exit", nextScene: 10 }
       ],
-      image: '/images/shadowy-figure.jpeg'
+      image: '/images/scene-three.jpeg'
     },
     {
       id: 4,
@@ -49,8 +49,8 @@ interface Choice {
         { text: "Pick up the pace and head straight home", nextScene: 12 },
         { text: "Hide and see who's following you", nextScene: 13 }
       ],
-      image: '/images/quiet-street.jpeg'
+      image: '/images/scene-four.jpeg'
     },
-    // Add more scenes as needed
+  
   ];
   

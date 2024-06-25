@@ -25,7 +25,7 @@ const SceneComponent: React.FC<SceneProps> = ({ description, choices, image, onC
     setFadeState('fade-out');
     setTimeout(() => {
       onChoiceSelect(nextScene);
-    }, 500); // Match the transition duration
+    }, 500); 
   };
 
   return (

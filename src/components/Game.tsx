@@ -11,18 +11,18 @@ const Game: React.FC = () => {
   const [menu, setMenu] = useState(false);
 
   useEffect(() => {
-    const loadingTime = 5000; // Simulate loading time of 5 seconds
+    const loadingTime = 5000; 
 
     const timeout = setTimeout(() => {
       setLoading(false);
-      setMenu(true); // Show menu after loading
+      setMenu(true); 
     }, loadingTime);
 
     return () => clearTimeout(timeout);
   }, []);
 
   const handleStartGame = () => {
-    setMenu(false); // Hide menu and start the game
+    setMenu(false); 
   };
 
   const handleChoiceSelect = (nextScene: number) => {

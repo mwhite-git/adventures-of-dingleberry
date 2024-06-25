@@ -15,9 +15,9 @@ const Loading: React.FC = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setMessageIndex((prevIndex) => (prevIndex + 1) % messages.length);
-    }, 1000); // Change message every 1 second
+    }, 1000); 
 
-    return () => clearInterval(interval); // Cleanup interval on component unmount
+    return () => clearInterval(interval);
   }, []);
 
   return (
